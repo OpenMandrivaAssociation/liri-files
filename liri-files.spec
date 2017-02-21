@@ -25,6 +25,7 @@ BuildRequires:  cmake
 BuildRequires:	cmake(Fluid)
 BuildRequires:	cmake(Qt5QuickControls2)
 BuildRequires:	cmake(ECM)
+BuildRequires:	cmake(Qt5Widgets)
 BuildRequires:	pkgconfig(taglib)
 
 %description
