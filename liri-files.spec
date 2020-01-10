@@ -32,7 +32,7 @@ File manager for Liri OS
 
 %prep
 %setup -qn %{tarname}
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake_qt5
